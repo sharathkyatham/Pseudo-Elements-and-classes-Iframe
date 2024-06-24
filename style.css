@@ -1,0 +1,43 @@
+p{
+    padding:50px;
+    color: indigo;
+    font-size: 1.5rem;
+}
+
+p::first-line {
+    color: red;
+}
+
+ul li::marker{
+    content:"🤖";
+}
+p::selection{
+background-color: crimson;
+color: burlywood;
+}
+h2::before{
+    content:"\\\\";
+}
+h2::after{
+    content:"🤖";
+}
+p:hover{
+    background-color:gold;
+}
+
+iframe{
+    width: 650px;
+    height: 650px;
+}
+
+ol li::marker{
+    content:"🎥";
+}
+
+p::first-letter{
+color: yellow;
+}
+
+li::marker{
+    content:"👩‍🎤";
+}
